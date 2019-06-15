@@ -12,10 +12,14 @@ $ git clone https://github.com/lanlhtomosia97/Docker-Rails.git
 ## Custom `docker-compose.yml`
 
 ## Rails new application
-
 ```
 $ docker-compose run web rails new . --force --database=mysql --skip-bundle
 ```
+Default database is mysql, if your case is postgres
+```
+$ docker-compose run web rails new . --force --database=postgresql --skip-bundle
+```
+
 
 ## Docker-compose build
 Build your containers by command `build`
