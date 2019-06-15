@@ -7,17 +7,17 @@ $ git clone https://github.com/lanlhtomosia97/Docker-Rails.git
 
 ```
 
-## Custom your `Dockerfile`
+## Custom `Dockerfile`
 
-## Custom your `docker-compose.yml`
+## Custom `docker-compose.yml`
 
-## Rails new
+## Rails new application
 
 ```
 $ docker-compose run web rails new . --force --database=mysql --skip-bundle
 ```
 
-## docker-compose build
+## Docker-compose build
 Build your containers by command `build`
 
 ```
@@ -39,9 +39,11 @@ default: &default
 docker-compose run web rake db:create
 ```
 
-## docker-compose up
+## Docker-compose up
 Start your Server
 
 ```
 $ docker-compose up
 ```
+
+## Read more Docker Command in Docker-command.md file 
