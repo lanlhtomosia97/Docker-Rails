@@ -1,5 +1,6 @@
 ================== HOW TO USE ===================
 
+
 Clone this repository
 
 ```
@@ -9,7 +10,9 @@ $ git clone https://github.com/lanlhtomosia97/Docker-Rails.git
 
 ## Custom `Dockerfile`
 
+
 ## Custom `docker-compose.yml`
+
 
 ## Rails new application
 ```
@@ -29,7 +32,7 @@ $ docker-compose build
 ```
 
 ## Config `database.yml`
-<name> is your container database name
+"name" is your container database name
 
 ```
 # config/database.yml
