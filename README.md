@@ -1,8 +1,9 @@
-===== HOW TO USE =======
+================== HOW TO USE ===================
 
-Clone this Repo 
+Clone this repository
 
 ```
+$ git clone https://github.com/lanlhtomosia97/Docker-Rails.git
 
 ```
 
