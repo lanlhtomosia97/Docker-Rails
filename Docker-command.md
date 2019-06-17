@@ -4,6 +4,11 @@
 $ docker-machine ip default
 192.168.99.100
 ```
+Docker Container IP
+```
+$ docker ps  #list containers
+$ docker inspect < docker-container ID > | grep "IPAddress"
+```
 
 ## Pull image from Docker Hub
 ```
